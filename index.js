@@ -1,7 +1,7 @@
 'use strict';
 
 const heygen_API = {
-  apiKey: 'YourApiKey',
+  apiKey: 'ZmNhNzU2ZmUzMmU3NDUzY2EwOWJhMGVmMmY4MTc2ZjgtMTcxNTEwNDAyNQ==',
   serverUrl: 'https://api.heygen.com',
 };
 
@@ -9,7 +9,7 @@ const statusElement = document.querySelector('#status');
 const apiKey = heygen_API.apiKey;
 const SERVER_URL = heygen_API.serverUrl;
 
-if (apiKey === 'YourApiKey' || SERVER_URL === '') {
+if (apiKey === 'ZmNhNzU2ZmUzMmU3NDUzY2EwOWJhMGVmMmY4MTc2ZjgtMTcxNTEwNDAyNQ==' || SERVER_URL === '') {
   alert('Please enter your API key and server URL in the api.json file');
 }
 
